@@ -15,7 +15,13 @@ export default function TeamPage() {
     const fetchTeamMembers = async () => {
       try {
         const { items } = await BaseCrudService.getAll<TeamMembers>('teammembers');
-        setTeamMembers(items);
+        // Sort team members by creation date in descending order (most recent first)
+        const sortedItems = items.sort((a, b) => {
+          const dateA = new Date(a._createdDate || 0);
+          const dateB = new Date(b._createdDate || 0);
+          return dateB.getTime() - dateA.getTime();
+        });
+        setTeamMembers(sortedItems);
       } catch (error) {
         console.error('Error fetching team members:', error);
       } finally {
