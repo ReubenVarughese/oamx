@@ -40,9 +40,9 @@ export default function HomePage() {
         {/* Hero Content - Left Aligned */}
         <div className="relative z-10 max-w-[120rem] mx-auto px-8 lg:px-16">
           <div className="max-w-2xl">
-            <h1 className="font-heading lg:text-7xl text-primary-foreground mb-6 text-left text-5xl">
+            <h2 className="font-heading lg:text-7xl text-primary-foreground mb-6 text-left text-5xl">
               Ohio Air Mobility Exchange
-            </h1>
+            </h2>
             <p className="font-paragraph text-lg text-primary-foreground mb-8 leading-relaxed opacity-90">
               Connecting innovators, researchers, and industry leaders to shape the next generation of transportation technologies in Ohio and beyond.
             </p>
