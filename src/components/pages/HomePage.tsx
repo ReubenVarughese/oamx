@@ -59,18 +59,13 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* About OAMx Section */}
       <section className="py-24 bg-secondary">
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="font-heading text-4xl text-secondary-foreground mb-6">
-                Ohio Advanced Mobility Exchange
-              </h2>
-              <p className="font-paragraph text-lg text-secondary-foreground mb-6 leading-relaxed">
-                OAMx represents the evolution of Ohio's premier mobility innovation platform. Born from the Ohio UAM Symposium, we've expanded our vision to encompass all forms of advanced transportation technologies.
-              </p>
+              <h2 className="font-heading text-4xl text-secondary-foreground mb-6">{"Ohio Air Mobility Exchange"}</h2>
+
               <p className="font-paragraph text-lg text-secondary-foreground mb-8 leading-relaxed">
                 Our mission is to foster collaboration between academia, industry, and government to accelerate the development and deployment of next-generation mobility solutions.
               </p>
@@ -91,7 +86,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Key Features Grid */}
       <section className="py-24 bg-background">
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16">
@@ -143,7 +137,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* 2025 Event Preview */}
       <section className="py-24 bg-primary">
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16">
@@ -182,7 +175,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Call to Action */}
       <section className="py-24 bg-secondary">
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16 text-center">
@@ -200,7 +192,6 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="bg-primary py-16">
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16">
