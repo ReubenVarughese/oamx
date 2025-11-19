@@ -22,16 +22,16 @@ export default function HomePage() {
         {/* Navigation */}
         <nav className="absolute top-0 right-0 z-20 p-8">
           <div className="flex space-x-8">
-            <Link to="/about" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base">
+            <Link to="/about" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base text-center">
               About
             </Link>
-            <Link to="/2025-event" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base">
+            <Link to="/2025-event" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base text-center">
               2025 Event
             </Link>
-            <Link to="/get-involved" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base">
+            <Link to="/get-involved" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base text-center">
               Get Involved
             </Link>
-            <Link to="/team" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base">
+            <Link to="/team" className="text-primary-foreground hover:text-accentcyan transition-colors font-paragraph text-base text-center">
               Team
             </Link>
           </div>
@@ -40,7 +40,7 @@ export default function HomePage() {
         {/* Hero Content - Left Aligned */}
         <div className="relative z-10 max-w-[120rem] mx-auto px-8 lg:px-16">
           <div className="max-w-2xl">
-            <h1 className="font-heading text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight">
+            <h1 className="font-heading lg:text-7xl text-primary-foreground mb-6 text-5xl">
               ADVANCING
               <br />
               MOBILITY'S
