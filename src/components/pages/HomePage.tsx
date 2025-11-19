@@ -40,12 +40,8 @@ export default function HomePage() {
         {/* Hero Content - Left Aligned */}
         <div className="relative z-10 max-w-[120rem] mx-auto px-8 lg:px-16">
           <div className="max-w-2xl">
-            <h1 className="font-heading lg:text-7xl text-primary-foreground mb-6 text-5xl">
-              ADVANCING
-              <br />
-              MOBILITY'S
-              <br />
-              FUTURE
+            <h1 className="font-heading lg:text-7xl text-primary-foreground mb-6 text-5xl text-left">
+              Ohio Air Mobility Exchange
             </h1>
             <p className="font-paragraph text-lg text-primary-foreground mb-8 leading-relaxed opacity-90">
               Connecting innovators, researchers, and industry leaders to shape the next generation of transportation technologies in Ohio and beyond.
@@ -64,7 +60,7 @@ export default function HomePage() {
         <div className="max-w-[100rem] mx-auto px-8 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="font-heading text-4xl text-secondary-foreground mb-6">{"Ohio Air Mobility Exchange"}</h2>
+              <h2 className="font-heading text-4xl text-secondary-foreground mb-6">{"Advancing Mobility's Future"}</h2>
 
               <p className="font-paragraph text-lg text-secondary-foreground mb-8 leading-relaxed">
                 Our mission is to foster collaboration between academia, industry, and government to accelerate the development and deployment of next-generation mobility solutions.
