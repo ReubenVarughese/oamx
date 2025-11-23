@@ -102,9 +102,11 @@ export default function GetInvolvedPage() {
               <p className="font-paragraph text-base text-secondary-foreground leading-relaxed mb-6">
                 Present research, participate in competitions, and connect with industry mentors to accelerate your career in advanced mobility.
               </p>
-              <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
-                Student Opportunities
-              </Button>
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=NlYJ61IQlUiVKx_53x0RIQ2VWB0NMgFAhM5JPv1SFzBUNFVYTUhUVzlGUDY5N0M5SU1aMkszOENNMS4u" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
+                  Student Opportunities
+                </Button>
+              </a>
             </div>
 
             <div className="text-center">
@@ -117,9 +119,11 @@ export default function GetInvolvedPage() {
               <p className="font-paragraph text-base text-secondary-foreground leading-relaxed mb-6">
                 Share expertise, explore partnerships, and stay at the forefront of transportation technology developments.
               </p>
-              <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
-                Industry Engagement
-              </Button>
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=NlYJ61IQlUiVKx_53x0RIQ2VWB0NMgFAhM5JPv1SFzBUNFVYTUhUVzlGUDY5N0M5SU1aMkszOENNMS4u" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
+                  Industry Engagement
+                </Button>
+              </a>
             </div>
 
             <div className="text-center">
@@ -132,9 +136,11 @@ export default function GetInvolvedPage() {
               <p className="font-paragraph text-base text-secondary-foreground leading-relaxed mb-6">
                 Sponsor events, collaborate on research initiatives, and help shape the future of mobility policy and implementation.
               </p>
-              <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
-                Partnership Options
-              </Button>
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=NlYJ61IQlUiVKx_53x0RIQ2VWB0NMgFAhM5JPv1SFzBUNFVYTUhUVzlGUDY5N0M5SU1aMkszOENNMS4u" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-accentcyan text-primary hover:bg-accentcyan/90 font-paragraph">
+                  Partnership Options
+                </Button>
+              </a>
             </div>
           </div>
         </div>
